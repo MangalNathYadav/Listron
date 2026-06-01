@@ -2,6 +2,8 @@
 
 A premium, collaborative platform where incoming college students and seniors build public, shareable packing checklists with rate-limited anti-spam security.
 
+![Listron App Screenshot](public/app-screenshot.png)
+
 ## Features
 
 - **Public Checklists**: Share packing lists via a simple link.
