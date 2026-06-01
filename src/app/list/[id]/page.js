@@ -302,16 +302,14 @@ export default function ListDetails() {
       setIsScanning(true);
       setScanError("");
       
-      const aiResponse = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=${process.env.NEXT_PUBLIC_GEMINI_API_KEY}`, {
+      const aiResponse = await fetch("/api/moderate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          contents: [{ parts: [{ text: `You are an AI content moderator for a college hostel packing checklist. Check if the following item name contains sexual wellness items, offensive content, slurs, or inappropriate material. Reply ONLY with the word 'BLOCK' if it is inappropriate, or 'ALLOW' if it is fine. Item name: "${itemName.trim()}"` }] }]
-        })
+        body: JSON.stringify({ itemName: itemName.trim() })
       });
       
       const aiData = await aiResponse.json();
-      const aiDecision = aiData?.candidates?.[0]?.content?.parts?.[0]?.text?.trim()?.toUpperCase() || "ALLOW";
+      const aiDecision = aiData?.decision || "ALLOW";
       
       if (aiDecision.includes("BLOCK")) {
         setScanError(`The item "${itemName.trim()}" was blocked by AI moderation for violating content policies.`);
