@@ -1,0 +1,44 @@
+{
+  "rules": {
+    ".read": true,
+    "lists": {
+      "$listId": {
+        ".read": true,
+        ".write": true,
+        ".validate": "newData.hasChildren(['title', 'createdAt'])",
+        "title": {
+          ".validate": "newData.isString() && newData.val().length > 0 && newData.val().length < 100"
+        },
+        "description": {
+          ".validate": "newData.isString() && newData.val().length < 500"
+        },
+        "category": {
+          ".validate": "newData.isString() && newData.val().length < 50"
+        },
+        "createdAt": {
+          ".validate": "newData.isNumber()"
+        },
+        "items": {
+          "$itemId": {
+            ".validate": "newData.hasChildren(['name', 'role', 'upvotes', 'packed', 'createdAt'])",
+            "name": {
+              ".validate": "newData.isString() && newData.val().length > 0 && newData.val().length < 200"
+            },
+            "role": {
+              ".validate": "newData.isString() && (newData.val() == 'Incoming Freshman' || newData.val() == 'Senior Alum' || newData.val() == 'Hostel Warden' || newData.val() == 'Anonymous')"
+            },
+            "upvotes": {
+              ".validate": "newData.isNumber()"
+            },
+            "packed": {
+              ".validate": "newData.isBoolean()"
+            },
+            "createdAt": {
+              ".validate": "newData.isNumber()"
+            }
+          }
+        }
+      }
+    }
+  }
+}
