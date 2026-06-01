@@ -1,8 +1,11 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fffafb;
+  --foreground: #1e1b1c;
+  --cherry-primary: #f43f5e;
+  --cherry-accent: #ffe4e6;
+  --cherry-dark: #881337;
 }
 
 @theme inline {
@@ -12,15 +15,84 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(244, 63, 94, 0.04) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, rgba(251, 113, 133, 0.04) 0px, transparent 50%);
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom cherry-pink scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(244, 63, 94, 0.01);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(244, 63, 94, 0.15);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(244, 63, 94, 0.3);
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.35;
+    transform: scale(1.02);
+  }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+.animate-shake {
+  animation: shake 0.2s ease-in-out 0s 2;
+}
+
+/* Cherry-themed minimalist cards */
+.cherry-card {
+  background: #ffffff;
+  border: 1px solid rgba(244, 63, 94, 0.08);
+  box-shadow: 0 2px 8px -2px rgba(244, 63, 94, 0.04), 0 1px 3px -1px rgba(244, 63, 94, 0.02);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cherry-card-hover:hover {
+  border-color: rgba(244, 63, 94, 0.2);
+  box-shadow: 0 12px 24px -10px rgba(244, 63, 94, 0.08);
+  transform: translateY(-1.5px);
 }
