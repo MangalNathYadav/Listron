@@ -58,6 +58,10 @@ export default function ListDetails() {
   const [mounted, setMounted] = useState(false);
   const [showMembers, setShowMembers] = useState(false);
 
+  // AI Moderation states
+  const [isScanning, setIsScanning] = useState(false);
+  const [scanError, setScanError] = useState("");
+
   // Per-user packed state (synced via Firebase RTDB)
   const [packedItems, setPackedItems] = useState(new Set());
   const packedUnsubRef = useRef(null);
@@ -293,6 +297,32 @@ export default function ListDetails() {
       return;
     }
 
+    // AI Content Moderation
+    try {
+      setIsScanning(true);
+      setScanError("");
+      
+      const aiResponse = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=${process.env.NEXT_PUBLIC_GEMINI_API_KEY}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          contents: [{ parts: [{ text: `You are an AI content moderator for a college hostel packing checklist. Check if the following item name contains sexual wellness items, offensive content, slurs, or inappropriate material. Reply ONLY with the word 'BLOCK' if it is inappropriate, or 'ALLOW' if it is fine. Item name: "${itemName.trim()}"` }] }]
+        })
+      });
+      
+      const aiData = await aiResponse.json();
+      const aiDecision = aiData?.candidates?.[0]?.content?.parts?.[0]?.text?.trim()?.toUpperCase() || "ALLOW";
+      
+      if (aiDecision.includes("BLOCK")) {
+        setScanError(`The item "${itemName.trim()}" was blocked by AI moderation for violating content policies.`);
+        setIsScanning(false);
+        return; // Abort save
+      }
+    } catch (e) {
+      console.error("AI Scan failed", e);
+      // Fail open if AI API fails
+    }
+
     try {
       const itemsRef = ref(db, `lists/${id}/items`);
       const newItemRef = push(itemsRef);
@@ -312,6 +342,8 @@ export default function ListDetails() {
       setShowAddForm(false);
     } catch (err) {
       console.error("Error adding suggestion:", err);
+    } finally {
+      setIsScanning(false);
     }
   };
 
@@ -827,10 +859,24 @@ export default function ListDetails() {
 
               <button
                 type="submit"
-                className="btn-primary w-full py-3.5 text-sm flex items-center justify-center gap-2 cursor-pointer"
+                disabled={!itemName.trim() || isScanning}
+                className="btn-primary w-full py-3.5 text-sm font-bold flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50"
               >
-                Add Suggestion
+                {isScanning ? (
+                  <>
+                    <div className="w-4 h-4 rounded-full border-2 border-white/30 border-t-white animate-spin" />
+                    <span>Scanning...</span>
+                  </>
+                ) : (
+                  <span>Add Suggestion</span>
+                )}
               </button>
+              
+              {scanError && (
+                <div className="text-rose-500 text-xs font-semibold text-center mt-2 px-3 py-2 bg-rose-50 rounded-xl border border-rose-100">
+                  ⚠️ {scanError}
+                </div>
+              )}
             </form>
           </div>
         )}
