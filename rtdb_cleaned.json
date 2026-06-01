@@ -1,0 +1,695 @@
+{
+  "lists": {
+    "-Ou0pbT--Vy4-ebWCNlt": {
+      "category": "Hostel Essentials",
+      "createdAt": 1780294768437,
+      "description": "asf",
+      "items": {
+        "-Ou0peiEE0fQuchIWmyg": {
+          "category": "Bedding & Linens",
+          "createdAt": 1780294781764,
+          "name": "ubj",
+          "packed": false,
+          "role": "Senior Alum",
+          "upvotes": 0
+        },
+        "-Ou0z2MoISBshFR063XI": {
+          "addedBy": "sfa",
+          "category": "Bedding & Linens",
+          "createdAt": 1780297242017,
+          "name": "sdaf",
+          "upvotes": 0
+        },
+        "-Ou0z6MUKDSA-cpXqpry": {
+          "addedBy": "sfa",
+          "category": "Bedding & Linens",
+          "createdAt": 1780297258380,
+          "name": "asf",
+          "upvotes": 2
+        },
+        "-Ou1licGAce1LkcjlZuB": {
+          "addedBy": "zwei",
+          "category": "Bedding & Linens",
+          "createdAt": 1780310534796,
+          "name": "istg",
+          "upvotes": 0
+        }
+      },
+      "members": {
+        "-Ou0xJnQfawLeKiPTWU_": {
+          "joinedAt": 1780296789136,
+          "name": "test"
+        },
+        "-Ou0xb8FBCDO2_RqXk1d": {
+          "joinedAt": 1780296864253,
+          "name": "sfa"
+        },
+        "-Ou0zLLlFUr_Z-s12G31": {
+          "joinedAt": 1780297319773,
+          "name": "demon"
+        },
+        "-Ou113vYapH_56JY3CGV": {
+          "joinedAt": 1780298043224,
+          "name": "Dhdh"
+        },
+        "-Ou1lfwpqma7hKZWiDyi": {
+          "joinedAt": 1780310523824,
+          "name": "zwei"
+        },
+        "-Ou1nO57ovkchPkHeJjC": {
+          "joinedAt": 1780310969693,
+          "name": "Gajodhar"
+        }
+      },
+      "packedBy": {
+        "demon": {
+          "-Ou0z6MUKDSA-cpXqpry": true
+        },
+        "test": {
+          "-Ou0z6MUKDSA-cpXqpry": true
+        }
+      },
+      "title": "sfw",
+      "upvotedBy": {
+        "test": {
+          "-Ou0z6MUKDSA-cpXqpry": true
+        },
+        "sfa": {
+          "-Ou0z6MUKDSA-cpXqpry": true
+        }
+      }
+    },
+    "-Ou11eg0k1qXEcZb1-Zp": {
+      "createdAt": 1780298197957,
+      "description": "Things to bring by fresher to live in hostel.",
+      "items": {
+        "-Ou12FBsfTcj0rWPyefC": {
+          "addedBy": "Babu bisleri",
+          "category": "Electronics & Tech",
+          "createdAt": 1780298351016,
+          "name": "Extension board",
+          "upvotes": 25
+        },
+        "-Ou12Ml-BnBBYxp-wB_l": {
+          "addedBy": "Babu bisleri",
+          "category": "Electronics & Tech",
+          "createdAt": 1780298382000,
+          "name": "Table lamp ( optional )",
+          "upvotes": 5
+        },
+        "-Ou1FY1ZbSvuf6bUrGIu": {
+          "addedBy": "Vibgyor",
+          "category": "Clothing & Apparel",
+          "createdAt": 1780301835655,
+          "name": "Clothes",
+          "upvotes": 19
+        },
+        "-Ou1f9FGfYbbgSCAgZyK": {
+          "addedBy": "laal_kabutar",
+          "category": "Bedding & Linens",
+          "createdAt": 1780308812693,
+          "name": "blind fold(if needed)",
+          "upvotes": 17
+        },
+        "-Ou1fDCdCJloqFFizfJN": {
+          "addedBy": "laal_kabutar",
+          "category": "Toiletries & Bath",
+          "createdAt": 1780308828909,
+          "name": "hand wash",
+          "upvotes": 0
+        },
+        "-Ou1fHsc3sFUxpmgL8aC": {
+          "addedBy": "laal_kabutar",
+          "category": "Bedding & Linens",
+          "createdAt": 1780308848044,
+          "name": "hangars for clothes",
+          "upvotes": 0
+        },
+        "-Ou1fPYsoYgnNl2i6A-P": {
+          "addedBy": "Babu bisleri",
+          "category": "Bedding & Linens",
+          "createdAt": 1780308878965,
+          "name": "Condoms ( feel the high )",
+          "upvotes": 31
+        },
+        "-Ou1fYe6Hp1H0f5HKO2S": {
+          "addedBy": "laal_kabutar",
+          "category": "Bedding & Linens",
+          "createdAt": 1780308916747,
+          "name": "medicines",
+          "upvotes": 0
+        },
+        "-Ou1gPNDl1WRlDby9vJa": {
+          "addedBy": "Babu bisleri",
+          "category": "Clothing & Apparel",
+          "createdAt": 1780309140393,
+          "name": "Skin care",
+          "upvotes": 31
+        },
+        "-Ou1gTmisQN8XNZOX21p": {
+          "addedBy": "Babu bisleri",
+          "category": "Other",
+          "createdAt": 1780309158473,
+          "name": "Water bottle",
+          "upvotes": 25
+        },
+        "-Ou1gaXP9bXVpVdH6VuH": {
+          "addedBy": "Babu bisleri",
+          "category": "Laundry & Cleaning",
+          "createdAt": 1780309190197,
+          "name": "Tissues ( optional )",
+          "upvotes": 31
+        },
+        "-Ou1hIyCkp2vPqfefVPh": {
+          "addedBy": "Babu bisleri",
+          "category": "Other",
+          "createdAt": 1780309376296,
+          "name": "Lock",
+          "upvotes": 0
+        },
+        "-Ou1hX4ieUQ29I2NofKL": {
+          "addedBy": "Babu bisleri",
+          "category": "Bedding & Linens",
+          "createdAt": 1780309434121,
+          "name": "Bedsheet ( 2units ) , pillow cover",
+          "upvotes": 29
+        },
+        "-Ou1jrG8NAwjdX21eBsN": {
+          "addedBy": "Santa claus",
+          "category": "Bedding & Linens",
+          "createdAt": 1780310044435,
+          "name": "Lube",
+          "upvotes": 31
+        },
+        "-Ou1lDZnDZNBdufMxAOC": {
+          "addedBy": "CTS ki MKC",
+          "category": "Bedding & Linens",
+          "createdAt": 1780310403503,
+          "name": "Girl",
+          "upvotes": 31
+        },
+        "-Ou1lWlWAdwu13fk8AWW": {
+          "addedBy": "zwei",
+          "category": "Bedding & Linens",
+          "createdAt": 1780310482140,
+          "name": "rope",
+          "upvotes": 1
+        },
+        "-Ou1lYv0X0CtBNzOb5U8": {
+          "addedBy": "vit sucks",
+          "category": "Clothing & Apparel",
+          "createdAt": 1780310490976,
+          "name": "monkey cap (youll be needing this)",
+          "upvotes": 1
+        }
+      },
+      "members": {
+        "-Ou11hW0tYt1ssfPtjBA": {
+          "joinedAt": 1780298209541,
+          "name": "shadowXg"
+        },
+        "-Ou124-9Skv-FoRNP9Cl": {
+          "joinedAt": 1780298307596,
+          "name": "Abheesht yadav"
+        },
+        "-Ou12A6YUYHmRGuzti8N": {
+          "joinedAt": 1780298330195,
+          "name": "Babu bisleri"
+        },
+        "-Ou12NugvVmHalv4no2p": {
+          "joinedAt": 1780298387260,
+          "name": "Shree"
+        },
+        "-Ou13zNebvLbx5wXOgPd": {
+          "joinedAt": 1780298808275,
+          "name": "Shraddha Gupta"
+        },
+        "-Ou14UwzKY-zRaoMEjey": {
+          "joinedAt": 1780298940798,
+          "name": "Sukrit"
+        },
+        "-Ou14aJO_L9Ki-rMetFj": {
+          "joinedAt": 1780298966672,
+          "name": "Kshitij"
+        },
+        "-Ou18BoPo2mBQ1xeyTm-": {
+          "joinedAt": 1780299910983,
+          "name": "Rahul"
+        },
+        "-Ou18MZzi8z64kbWzzYi": {
+          "joinedAt": 1780299952468,
+          "name": "Niee"
+        },
+        "-Ou1Dv_iKJMQaR1B9LEw": {
+          "joinedAt": 1780301412819,
+          "name": "Aditya"
+        },
+        "-Ou1FP__z11-ik0PYx4e": {
+          "joinedAt": 1780301801033,
+          "name": "Vibgyor"
+        },
+        "-Ou1Jj-Zug5eWd3f-nYz": {
+          "joinedAt": 1780302932612,
+          "name": "Karan"
+        },
+        "-Ou1KYy-7uc8ABWjN8v6": {
+          "joinedAt": 1780303150642,
+          "name": "Butter"
+        },
+        "-Ou1L7Zn0SnfyOq1ge9X": {
+          "joinedAt": 1780303299249,
+          "name": "Abhineet"
+        },
+        "-Ou1NNWn6NFXiSp8qyzs": {
+          "joinedAt": 1780303890687,
+          "name": "Jhanvi"
+        },
+        "-Ou1RSanbxdtzrRxheG-": {
+          "joinedAt": 1780304958846,
+          "name": "Eren"
+        },
+        "-Ou1T6nuDQKOpdsEiE9v": {
+          "joinedAt": 1780305394167,
+          "name": "Falcon"
+        },
+        "-Ou1WN4OtcML2CCL_5KQ": {
+          "joinedAt": 1780306247934,
+          "name": "Vikas"
+        },
+        "-Ou1XGgss4g4ur3j8DT2": {
+          "joinedAt": 1780306482559,
+          "name": "Subom"
+        },
+        "-Ou1f1a6l6V9x2LX5ZgL": {
+          "joinedAt": 1780308781323,
+          "name": "laal_kabutar"
+        },
+        "-Ou1fU3t608lFhPCDzH7": {
+          "joinedAt": 1780308897726,
+          "name": "Priyansh"
+        },
+        "-Ou1fVpUP4sIQf_Z_cAG": {
+          "joinedAt": 1780308905475,
+          "name": "Rohitashwa Pandey"
+        },
+        "-Ou1gB6KAGYKvED36EZ2": {
+          "joinedAt": 1780309082361,
+          "name": "🙀"
+        },
+        "-Ou1h04FTTT6B7Id4J63": {
+          "joinedAt": 1780309245470,
+          "name": "Siddhi"
+        },
+        "-Ou1iab2jCzZYV-jOkdF": {
+          "joinedAt": 1780309715431,
+          "name": "Mayank"
+        },
+        "-Ou1jisve5_jh7Ixh361": {
+          "joinedAt": 1780310010117,
+          "name": "Santa claus"
+        },
+        "-Ou1kD0PILIxGINgwZ3d": {
+          "joinedAt": 1780310139157,
+          "name": "Anant"
+        },
+        "-Ou1kvWBOrIWZ4bzzzbb": {
+          "joinedAt": 1780310325448,
+          "name": "CTS ki MKC"
+        },
+        "-Ou1lGWwuFE0Nx68BbsQ": {
+          "joinedAt": 1780310415643,
+          "name": "vit sucks"
+        },
+        "-Ou1lRcrbSCmZ-hZ0r6z": {
+          "joinedAt": 1780310461106,
+          "name": "zwei"
+        },
+        "-Ou1lS71gd14U_QTTDO0": {
+          "joinedAt": 1780310462955,
+          "name": "G@rv"
+        }
+      },
+      "packedBy": {
+        "laal_kabutar": {
+          "-Ou12FBsfTcj0rWPyefC": true,
+          "-Ou12Ml-BnBBYxp-wB_l": true,
+          "-Ou1FY1ZbSvuf6bUrGIu": true,
+          "-Ou1f9FGfYbbgSCAgZyK": true,
+          "-Ou1fDCdCJloqFFizfJN": true,
+          "-Ou1fHsc3sFUxpmgL8aC": true,
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1fYe6Hp1H0f5HKO2S": true
+        },
+        "vit sucks": {
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true,
+          "-Ou1lYv0X0CtBNzOb5U8": true
+        }
+      },
+      "title": "VIT-B hostel",
+      "upvotedBy": {
+        "shadowxg": {
+          "-Ou12FBsfTcj0rWPyefC": true,
+          "-Ou12Ml-BnBBYxp-wB_l": true,
+          "-Ou1FY1ZbSvuf6bUrGIu": true,
+          "-Ou1f9FGfYbbgSCAgZyK": true,
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gTmisQN8XNZOX21p": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true,
+          "-Ou1lWlWAdwu13fk8AWW": true,
+          "-Ou1lYv0X0CtBNzOb5U8": true
+        },
+        "abheesht yadav": {
+          "-Ou12FBsfTcj0rWPyefC": true,
+          "-Ou12Ml-BnBBYxp-wB_l": true,
+          "-Ou1FY1ZbSvuf6bUrGIu": true,
+          "-Ou1f9FGfYbbgSCAgZyK": true,
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gTmisQN8XNZOX21p": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "babu bisleri": {
+          "-Ou12FBsfTcj0rWPyefC": true,
+          "-Ou12Ml-BnBBYxp-wB_l": true,
+          "-Ou1FY1ZbSvuf6bUrGIu": true,
+          "-Ou1f9FGfYbbgSCAgZyK": true,
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gTmisQN8XNZOX21p": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "shree": {
+          "-Ou12FBsfTcj0rWPyefC": true,
+          "-Ou12Ml-BnBBYxp-wB_l": true,
+          "-Ou1FY1ZbSvuf6bUrGIu": true,
+          "-Ou1f9FGfYbbgSCAgZyK": true,
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gTmisQN8XNZOX21p": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "shraddha gupta": {
+          "-Ou12FBsfTcj0rWPyefC": true,
+          "-Ou12Ml-BnBBYxp-wB_l": true,
+          "-Ou1FY1ZbSvuf6bUrGIu": true,
+          "-Ou1f9FGfYbbgSCAgZyK": true,
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gTmisQN8XNZOX21p": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "sukrit": {
+          "-Ou12FBsfTcj0rWPyefC": true,
+          "-Ou1FY1ZbSvuf6bUrGIu": true,
+          "-Ou1f9FGfYbbgSCAgZyK": true,
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gTmisQN8XNZOX21p": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "kshitij": {
+          "-Ou12FBsfTcj0rWPyefC": true,
+          "-Ou1FY1ZbSvuf6bUrGIu": true,
+          "-Ou1f9FGfYbbgSCAgZyK": true,
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gTmisQN8XNZOX21p": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "rahul": {
+          "-Ou12FBsfTcj0rWPyefC": true,
+          "-Ou1FY1ZbSvuf6bUrGIu": true,
+          "-Ou1f9FGfYbbgSCAgZyK": true,
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gTmisQN8XNZOX21p": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "niee": {
+          "-Ou12FBsfTcj0rWPyefC": true,
+          "-Ou1FY1ZbSvuf6bUrGIu": true,
+          "-Ou1f9FGfYbbgSCAgZyK": true,
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gTmisQN8XNZOX21p": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "aditya": {
+          "-Ou12FBsfTcj0rWPyefC": true,
+          "-Ou1FY1ZbSvuf6bUrGIu": true,
+          "-Ou1f9FGfYbbgSCAgZyK": true,
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gTmisQN8XNZOX21p": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "vibgyor": {
+          "-Ou12FBsfTcj0rWPyefC": true,
+          "-Ou1FY1ZbSvuf6bUrGIu": true,
+          "-Ou1f9FGfYbbgSCAgZyK": true,
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gTmisQN8XNZOX21p": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "karan": {
+          "-Ou12FBsfTcj0rWPyefC": true,
+          "-Ou1FY1ZbSvuf6bUrGIu": true,
+          "-Ou1f9FGfYbbgSCAgZyK": true,
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gTmisQN8XNZOX21p": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "butter": {
+          "-Ou12FBsfTcj0rWPyefC": true,
+          "-Ou1FY1ZbSvuf6bUrGIu": true,
+          "-Ou1f9FGfYbbgSCAgZyK": true,
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gTmisQN8XNZOX21p": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "abhineet": {
+          "-Ou12FBsfTcj0rWPyefC": true,
+          "-Ou1FY1ZbSvuf6bUrGIu": true,
+          "-Ou1f9FGfYbbgSCAgZyK": true,
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gTmisQN8XNZOX21p": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "jhanvi": {
+          "-Ou12FBsfTcj0rWPyefC": true,
+          "-Ou1FY1ZbSvuf6bUrGIu": true,
+          "-Ou1f9FGfYbbgSCAgZyK": true,
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gTmisQN8XNZOX21p": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "eren": {
+          "-Ou12FBsfTcj0rWPyefC": true,
+          "-Ou1FY1ZbSvuf6bUrGIu": true,
+          "-Ou1f9FGfYbbgSCAgZyK": true,
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gTmisQN8XNZOX21p": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "falcon": {
+          "-Ou12FBsfTcj0rWPyefC": true,
+          "-Ou1FY1ZbSvuf6bUrGIu": true,
+          "-Ou1f9FGfYbbgSCAgZyK": true,
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gTmisQN8XNZOX21p": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "vikas": {
+          "-Ou12FBsfTcj0rWPyefC": true,
+          "-Ou1FY1ZbSvuf6bUrGIu": true,
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gTmisQN8XNZOX21p": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "subom": {
+          "-Ou12FBsfTcj0rWPyefC": true,
+          "-Ou1FY1ZbSvuf6bUrGIu": true,
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gTmisQN8XNZOX21p": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "laal_kabutar": {
+          "-Ou12FBsfTcj0rWPyefC": true,
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gTmisQN8XNZOX21p": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "priyansh": {
+          "-Ou12FBsfTcj0rWPyefC": true,
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gTmisQN8XNZOX21p": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "rohitashwa pandey": {
+          "-Ou12FBsfTcj0rWPyefC": true,
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gTmisQN8XNZOX21p": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "🙀": {
+          "-Ou12FBsfTcj0rWPyefC": true,
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gTmisQN8XNZOX21p": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "siddhi": {
+          "-Ou12FBsfTcj0rWPyefC": true,
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gTmisQN8XNZOX21p": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "mayank": {
+          "-Ou12FBsfTcj0rWPyefC": true,
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gTmisQN8XNZOX21p": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "santa claus": {
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "anant": {
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "cts ki mkc": {
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "vit sucks": {
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1hX4ieUQ29I2NofKL": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "zwei": {
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        },
+        "g@rv": {
+          "-Ou1fPYsoYgnNl2i6A-P": true,
+          "-Ou1gPNDl1WRlDby9vJa": true,
+          "-Ou1gaXP9bXVpVdH6VuH": true,
+          "-Ou1jrG8NAwjdX21eBsN": true,
+          "-Ou1lDZnDZNBdufMxAOC": true
+        }
+      }
+    }
+  }
+}

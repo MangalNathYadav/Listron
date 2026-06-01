@@ -1,7 +1,7 @@
 {
   "rules": {
-    ".read": true,
     "lists": {
+      ".read": true,
       "$listId": {
         ".read": true,
         ".write": true,
@@ -55,9 +55,15 @@
               ".validate": "newData.isBoolean()"
             }
           }
+        },
+        "upvotedBy": {
+          "$username": {
+            "$itemId": {
+              ".validate": "newData.isBoolean()"
+            }
+          }
         }
       }
     }
   }
 }
-

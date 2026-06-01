@@ -62,6 +62,10 @@ export default function ListDetails() {
   const [packedItems, setPackedItems] = useState(new Set());
   const packedUnsubRef = useRef(null);
 
+  // Per-user upvoted state (synced via Firebase RTDB)
+  const [upvotedItems, setUpvotedItems] = useState(new Set());
+  const upvotedUnsubRef = useRef(null);
+
   // Sanitize username for use as a Firebase key (no . # $ [ ] /)
   const sanitizeKey = (str) => {
     return str.replace(/[.#$\[\]\/]/g, '_').toLowerCase();
@@ -96,19 +100,19 @@ export default function ListDetails() {
     }
   }, [id]);
 
-  // Real-time listener for per-user packed state from Firebase
+  // Real-time listener for per-user packed and upvoted state from Firebase
   useEffect(() => {
     if (!id || !username) return;
 
-    // Clean up previous listener
-    if (packedUnsubRef.current) {
-      packedUnsubRef.current();
-    }
+    // Clean up previous listeners
+    if (packedUnsubRef.current) packedUnsubRef.current();
+    if (upvotedUnsubRef.current) upvotedUnsubRef.current();
 
     const safeKey = sanitizeKey(username);
     const packedRef = ref(db, `lists/${id}/packedBy/${safeKey}`);
+    const upvotedRef = ref(db, `lists/${id}/upvotedBy/${safeKey}`);
 
-    const unsubscribe = onValue(packedRef, (snapshot) => {
+    const unsubscribePacked = onValue(packedRef, (snapshot) => {
       const data = snapshot.val();
       if (data) {
         setPackedItems(new Set(Object.keys(data)));
@@ -117,11 +121,23 @@ export default function ListDetails() {
       }
     });
 
-    packedUnsubRef.current = unsubscribe;
+    const unsubscribeUpvoted = onValue(upvotedRef, (snapshot) => {
+      const data = snapshot.val();
+      if (data) {
+        setUpvotedItems(new Set(Object.keys(data)));
+      } else {
+        setUpvotedItems(new Set());
+      }
+    });
+
+    packedUnsubRef.current = unsubscribePacked;
+    upvotedUnsubRef.current = unsubscribeUpvoted;
 
     return () => {
-      unsubscribe();
+      unsubscribePacked();
+      unsubscribeUpvoted();
       packedUnsubRef.current = null;
+      upvotedUnsubRef.current = null;
     };
   }, [id, username]);
 
@@ -299,8 +315,17 @@ export default function ListDetails() {
     }
   };
 
-  // Upvote item
+  // Upvote item (Single vote per user)
   const handleUpvote = (itemId) => {
+    if (!username) return;
+    if (upvotedItems.has(itemId)) return; // Already upvoted
+
+    const safeKey = sanitizeKey(username);
+    const itemUpvotedRef = ref(db, `lists/${id}/upvotedBy/${safeKey}/${itemId}`);
+    
+    // Write upvote state for this user
+    set(itemUpvotedRef, true);
+
     const itemUpvotesRef = ref(db, `lists/${id}/items/${itemId}/upvotes`);
     runTransaction(itemUpvotesRef, (currentUpvotes) => {
       return (currentUpvotes || 0) + 1;
@@ -909,9 +934,14 @@ export default function ListDetails() {
                     <div className="flex items-center gap-2 pl-3 flex-shrink-0">
                       <button
                         onClick={() => handleUpvote(item.id)}
-                        className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-white hover:bg-rose-50 border border-rose-100/50 hover:border-rose-200 text-slate-400 hover:text-rose-600 transition-all active:scale-90 cursor-pointer group/vote"
+                        disabled={upvotedItems.has(item.id)}
+                        className={`flex items-center gap-1.5 px-3 py-2 rounded-xl transition-all cursor-pointer group/vote ${
+                          upvotedItems.has(item.id) 
+                            ? "bg-rose-50 border border-rose-200 text-rose-500 cursor-not-allowed opacity-90" 
+                            : "bg-white hover:bg-rose-50 border border-rose-100/50 hover:border-rose-200 text-slate-400 hover:text-rose-600 active:scale-90"
+                        }`}
                       >
-                        <ThumbsUp className="w-3.5 h-3.5 group-hover/vote:scale-110 transition-transform" />
+                        <ThumbsUp className={`w-3.5 h-3.5 ${upvotedItems.has(item.id) ? "fill-rose-500 text-rose-500" : "group-hover/vote:scale-110"} transition-transform`} />
                         <span className="text-[11px] font-extrabold tabular-nums">{item.upvotes || 0}</span>
                       </button>
                     </div>

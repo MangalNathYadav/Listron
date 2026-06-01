@@ -377,8 +377,10 @@ export default function LandingPage() {
             <span>Vibe coded by shadowXg on Antigravity IDE</span>
           </div>
           
-          <div className="flex items-center justify-center gap-2 text-[10px] text-slate-400 font-semibold">
+          <div className="flex flex-wrap items-center justify-center gap-2 text-[10px] text-slate-400 font-semibold">
             <span>Gemini 3.5 Flash</span>
+            <span className="w-1 h-1 rounded-full bg-rose-200" />
+            <span>Claude Opus 4.5 Thinking</span>
             <span className="w-1 h-1 rounded-full bg-rose-200" />
             <span>Firebase RTDB</span>
             <span className="w-1 h-1 rounded-full bg-rose-200" />

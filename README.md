@@ -24,4 +24,4 @@ A premium, collaborative platform where incoming college students and seniors bu
 - Vibe coded by **shadowXg**
 - Author: **MangalNathYadav**
 - Used IDE: **antigravity**
-- Used agent: **gemini 3.5 flash (low) time limited**
+- Used agents: **gemini 3.5 flash (low) time limited** and **claude opus 4.5 thinking**
