@@ -20,21 +20,39 @@
         },
         "items": {
           "$itemId": {
-            ".validate": "newData.hasChildren(['name', 'role', 'upvotes', 'packed', 'createdAt'])",
+            ".validate": "newData.hasChildren(['name', 'upvotes', 'createdAt'])",
             "name": {
               ".validate": "newData.isString() && newData.val().length > 0 && newData.val().length < 200"
             },
-            "role": {
-              ".validate": "newData.isString() && (newData.val() == 'Incoming Freshman' || newData.val() == 'Senior Alum' || newData.val() == 'Hostel Warden' || newData.val() == 'Anonymous')"
+            "addedBy": {
+              ".validate": "newData.isString() && newData.val().length > 0 && newData.val().length < 50"
+            },
+            "category": {
+              ".validate": "newData.isString() && newData.val().length < 50"
             },
             "upvotes": {
               ".validate": "newData.isNumber()"
             },
-            "packed": {
-              ".validate": "newData.isBoolean()"
-            },
             "createdAt": {
               ".validate": "newData.isNumber()"
+            }
+          }
+        },
+        "members": {
+          "$memberId": {
+            ".validate": "newData.hasChildren(['name', 'joinedAt'])",
+            "name": {
+              ".validate": "newData.isString() && newData.val().length > 0 && newData.val().length < 50"
+            },
+            "joinedAt": {
+              ".validate": "newData.isNumber()"
+            }
+          }
+        },
+        "packedBy": {
+          "$username": {
+            "$itemId": {
+              ".validate": "newData.isBoolean()"
             }
           }
         }
@@ -42,3 +60,4 @@
     }
   }
 }
+
